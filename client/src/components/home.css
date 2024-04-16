@@ -1,0 +1,61 @@
+.home {
+  background-color: rgb(86, 108, 127);
+  width: 100%;
+  min-height: 100vh;
+}
+.home h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: rgb(100, 232, 225);
+}
+.home form {
+  display: flex;
+  width: 100%;
+  padding: 30px 20px;
+  justify-content: center;
+  gap: 25px;
+}
+.home form input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  width: 40%;
+  font-size: 14px;
+}
+.home form input:focus {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+.home form button {
+  color: rgb(95, 116, 126);
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.home form button:hover {
+  color: black;
+}
+
+.home .viewItem li {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 12px;
+  position: relative;
+}
+
+.home .viewItem li span:nth-child(1){
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.home .viewItem li span button {
+  margin-right: 10px;
+  padding: 2px 6px;
+  font-size: 14px;
+}
